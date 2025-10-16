@@ -24,7 +24,7 @@ class TypeScriptBaseInterface
         $this->name = $name;
     }
 
-    public function __toString()
+    public function __toString(): string
     {
         $imports = [];
         $pieces = [];
